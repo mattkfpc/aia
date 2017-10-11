@@ -1,0 +1,14 @@
+.banner {
+ background-color: #707E93;
+ color: #ffffff;
+
+}
+
+.logoimage {
+  width: 150px;
+  length: 150px;
+}
+
+body {
+  font-family: proxima-nova;
+}
