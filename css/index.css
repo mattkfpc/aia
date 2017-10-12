@@ -1,5 +1,5 @@
 .banner {
- background-color: #707E93;
+ background-color: #1D3748;
  color: #ffffff;
  height: 100%;
 }
@@ -7,12 +7,75 @@
 .logoimage {
   width: 150px;
   length: 150px;
+  position: relative;
+  left: 0em;
+}
+
+h3.bannermessage {
+  text-align: left;
+  padding-left: 20%;
+  color: #3DAEBA;
+  font-size: 24px;
+}
+
+h1.bannermessage {
+  padding-top: 100px;
+  padding-left: 50px;
+  text-align: left;
+  color: #1D3748;
+  font-size: 56px;
+  font-weight: 500;
 }
 
 body {
-  font-family: proxima-nova;
+  font-family: 'Open sans', sans-serif;
+
 }
 
+.backgroundimage{
+  background-image: url("../image/loginbackground.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.loginborder{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 2em;
+}
+
+#signupbox{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: -10em;
+}
+
+p.bannermessage{
+  padding-left:20%;
+}
+
+.loginbutton {
+  margin:10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 2px 4px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 #welcomemessage {
   text-align: right;
 }
@@ -22,10 +85,6 @@ body {
   height: 20em;
 }
 
-.center {
-    display: block;
-    margin: 0 auto;
-}
 
 .bannertitletext {
   font-size: 5em;
@@ -37,14 +96,9 @@ body {
 
 /* Set gray background color and 100% height */
 .sidenav {
-  background-color: #1D3748;
   height: 100%;
 }
 
-#profilename {
-  color: #ffffff;
-  text-align: center;
-}
 
 /* On small screens, set height to 'auto' for the grid */
 @media screen and (max-width: 767px) {
