@@ -1,8 +1,7 @@
 .banner {
  background-color: #707E93;
  color: #ffffff;
- display: inline;
- vertical-align: top;
+ height: 100%;
 }
 
 .logoimage {
@@ -18,9 +17,9 @@ body {
   text-align: right;
 }
 
-.sidebar {
+.sidebarprofile {
   background-color: #1D3748;
-  height: auto;
+  height: 20em;
 }
 
 .center {
@@ -32,16 +31,22 @@ body {
   font-size: 5em;
 }
 
-#containerIntro h1 {
-    display: inline;
-    vertical-align: top;
-    font-size: 16px;
-    line-height: 28px;
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 350px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #1D3748;
+  height: 100%;
 }
 
-#containerIntro p {
-    display: inline;
+#profilename {
+  color: #ffffff;
+  text-align: center;
+}
 
-    font-size: 16px;
-    line-height: 28px;
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;}
 }
