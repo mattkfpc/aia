@@ -1,0 +1,19 @@
+
+
+.logoimage {
+  width: 150px;
+  length: 150px;
+  position: relative;
+  left: 0em;
+}
+
+body {
+  font-family: 'Open sans', sans-serif;
+
+}
+
+.backgroundimage{
+  background-image: url("../image/loginbackground.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
